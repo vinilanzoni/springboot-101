@@ -34,7 +34,7 @@ public class PlaylistService implements IPlaylistService {
 
     @Override
     public void atualizar(Playlist playlist) {
-        atualizar(playlist);
+        playlistDao.atualizar(playlist);
     }
 
     @Override
